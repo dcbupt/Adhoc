@@ -1,0 +1,66 @@
+﻿生成启动时间为 2016/12/3 10:08:28。
+     1>项目“E:\Adhoc54646\adhoc_project\Evalboards\Microsoft\Windows\OS2\Visual Studio\OS2.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\program\VS2013\VC\bin\CL.exe /c /I..\ /I..\..\BSP /I..\..\BSP\CPU /I"..\..\..\..\..\uC-CPU" /I"..\..\..\..\..\uC-CPU\Win32\Visual Studio" /I"..\..\..\..\..\uC-LIB" /I"..\..\..\..\..\uCOS-II\Source" /I"..\..\..\..\..\uCOS-II\Ports\Win32\Visual Studio" /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt ..\adhoc\mac_laye.c
+         mac_laye.c
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_help.h(19): warning C4005: “LEFT_ANTENNA”: 宏重定义
+                 e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\vardef.h(34) : 参见“LEFT_ANTENNA”的前一个定义
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_help.h(20): warning C4005: “BACK_ANTENNA”: 宏重定义
+                 e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\vardef.h(36) : 参见“BACK_ANTENNA”的前一个定义
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(72): warning C4101: “i”: 未引用的局部变量
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(101): warning C4013: “MARSTimeGet”未定义；假设外部返回 int
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(210): warning C4129: “^”: 不可识别的字符转义序列
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(222): warning C4129: “^”: 不可识别的字符转义序列
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(468): warning C4129: “^”: 不可识别的字符转义序列
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(515): warning C4129: “^”: 不可识别的字符转义序列
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(420): warning C4101: “end_msg”: 未引用的局部变量
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(536): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(532): warning C4101: “result”: 未引用的局部变量
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(573): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(569): warning C4101: “result”: 未引用的局部变量
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(611): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+     1>e:\adhoc54646\adhoc_project\evalboards\microsoft\windows\os2\adhoc\mac_laye.c(606): warning C4101: “result”: 未引用的局部变量
+       Link:
+         E:\program\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Adhoc54646\adhoc_project\Evalboards\Microsoft\Windows\OS2\Visual Studio\Debug\OS2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Adhoc54646\adhoc_project\Evalboards\Microsoft\Windows\OS2\Visual Studio\Debug\OS2.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Adhoc54646\adhoc_project\Evalboards\Microsoft\Windows\OS2\Visual Studio\Debug\OS2.lib" /MACHINE:X86 Debug\cpu_core.obj
+         Debug\cpu_c.obj
+         Debug\lib_ascii.obj
+         Debug\lib_math.obj
+         Debug\lib_mem.obj
+         Debug\lib_str.obj
+         Debug\os_cpu_c.obj
+         Debug\os_core.obj
+         Debug\os_dbg_r.obj
+         Debug\os_flag.obj
+         Debug\os_mbox.obj
+         Debug\os_mem.obj
+         Debug\os_mutex.obj
+         Debug\os_q.obj
+         Debug\os_sem.obj
+         Debug\os_task.obj
+         Debug\os_time.obj
+         Debug\os_tmr.obj
+         Debug\bsp.obj
+         Debug\cpu_bsp.obj
+         Debug\init_node.obj
+         Debug\list.obj
+         Debug\log.obj
+         Debug\lvds.obj
+         Debug\mac_help.obj
+         Debug\mac_laye.obj
+         Debug\main.obj
+         Debug\MarsOSAPI.obj
+         Debug\mem_man.obj
+         Debug\mes_queue.obj
+         Debug\network.obj
+         Debug\packetBuffer.obj
+         Debug\publicstorage.obj
+         Debug\routeTable.obj
+         Debug\send_mes.obj
+         Debug\timer.obj
+         Debug\app_hooks.obj
+         OS2.vcxproj -> E:\Adhoc54646\adhoc_project\Evalboards\Microsoft\Windows\OS2\Visual Studio\Debug\OS2.exe
+     1>已完成生成项目“E:\Adhoc54646\adhoc_project\Evalboards\Microsoft\Windows\OS2\Visual Studio\OS2.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.26

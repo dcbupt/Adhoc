@@ -1,0 +1,17 @@
+The current date/time is: Fri Dec 02 20:49:13 2016
+^^^this node = 1^^^
+The current date/time is: Fri Dec 02 20:49:13 2016
+Init datapcakagemem succeed!
+The current date/time is: Fri Dec 02 20:49:13 2016
+Init bufferinfomem succeed!
+The current date/time is: Fri Dec 02 20:49:13 2016
+Init SmallAmountOfData succeed!
+The current date/time is: Fri Dec 02 20:49:14 2016
+Event InitTimerEvent
+The current date/time is: Fri Dec 02 20:49:14 2016
+Time = 125
+The current date/time is: Fri Dec 02 20:49:14 2016
+all antenna in wide beam
+The current date/time is: Fri Dec 02 20:49:14 2016
+ has no data to send
+ send wide beam msg
